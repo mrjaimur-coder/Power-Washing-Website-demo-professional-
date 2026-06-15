@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "bash",
+            "command": "PROJ=\"C:/Users/hp/OneDrive/Desktop/client-websites/Pressure Washing website demo (professional)\"; INPUT=$(cat); FILEPATH=$(echo \"$INPUT\" | jq -r '.tool_input.file_path // \"\"' 2>/dev/null); BASENAME=$(basename \"${FILEPATH:-site}\" 2>/dev/null); cd \"$PROJ\" && git add . && git diff --cached --quiet || (git commit -m \"Update ${BASENAME}\" && git push origin main) 2>&1 || true",
+            "statusMessage": "Committing and pushing changes..."
+          }
+        ]
+      }
+    ]
+  }
+}
