@@ -1008,6 +1008,14 @@ body::after {
   z-index: 1;
 }
 
+@media (max-width: 1023px) {
+  .gallery-slider-wrap {
+    width: 100%;
+    flex: none;
+    aspect-ratio: 4 / 3;
+  }
+}
+
 @media (min-width: 1024px) {
   .gallery-inner { flex-direction: row; gap: 5rem; }
 }
