@@ -138,16 +138,17 @@ body {
   min-height: 100svh;
 }
 
-/* Fixed blurred background — navy blue radial ambiance */
+/* Fixed blurred hero image — very light wash behind all sections */
 .page-bg-blur {
   position: fixed;
   inset: 0;
   z-index: -3;
-  background:
-    radial-gradient(ellipse 80% 60% at 20% 30%, rgba(74, 127, 167, 0.22) 0%, transparent 65%),
-    radial-gradient(ellipse 60% 50% at 80% 70%, rgba(26, 61, 99, 0.28) 0%, transparent 60%),
-    radial-gradient(ellipse 90% 70% at 50% 100%, rgba(10, 25, 49, 0.4) 0%, transparent 70%),
-    #0A1931;
+  background-image: url('stitch_elite_pressure_washing_website (1)/screen.png');
+  background-size: cover;
+  background-position: center 20%;
+  filter: blur(80px) saturate(40%) brightness(1.4);
+  opacity: 0.10;
+  transform: scale(1.12);
   pointer-events: none;
   will-change: transform;
 }
