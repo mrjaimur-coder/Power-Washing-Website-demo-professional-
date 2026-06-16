@@ -138,17 +138,16 @@ body {
   min-height: 100svh;
 }
 
-/* Fixed blurred hero image — underpins every section below hero */
+/* Fixed blurred background — navy blue radial ambiance */
 .page-bg-blur {
   position: fixed;
   inset: 0;
   z-index: -3;
-  background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAB4i4zEyDCYS_fF60NH8HxRI-ptck-PAOg_w816ZiaKWHfY5cHuywAT91IGjxfz62IKUCTIzYOgKtEJZFRbTGDudQrmFaicbgbNwG0cRBITt5lulqEpx3yJwM84uiYBNdf4gKIt2IM86erBVtjFmR7haA34j7jxkka4DgE2tf4b-eR6KPT_kTvq8KZdP0vqBDxXky6_pKQVTUl5zT8KPrHSbWkUhjkQ42rm_pMSFCy6jD5a4n4dEkCRWyXPnLlD3HCJxrqJcu0KPA");
-  background-size: cover;
-  background-position: center;
-  filter: blur(80px) saturate(30%) brightness(1.6);
-  opacity: 0.10;
-  transform: scale(1.12); /* prevent blur fringe at edges */
+  background:
+    radial-gradient(ellipse 80% 60% at 20% 30%, rgba(74, 127, 167, 0.22) 0%, transparent 65%),
+    radial-gradient(ellipse 60% 50% at 80% 70%, rgba(26, 61, 99, 0.28) 0%, transparent 60%),
+    radial-gradient(ellipse 90% 70% at 50% 100%, rgba(10, 25, 49, 0.4) 0%, transparent 70%),
+    #0A1931;
   pointer-events: none;
   will-change: transform;
 }
