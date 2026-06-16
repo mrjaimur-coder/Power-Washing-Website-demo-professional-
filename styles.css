@@ -167,9 +167,9 @@ body::before {
   inset: 0;
   background:
     radial-gradient(ellipse 700px 500px at  10%  8%,  rgba(74, 127, 167, 0.13) 0%, transparent 70%),
-    radial-gradient(ellipse 450px 350px at  90% 15%,  rgba(201, 148, 31, 0.07) 0%, transparent 65%),
+    radial-gradient(ellipse 450px 350px at  90% 15%,  rgba(74, 127, 167, 0.07) 0%, transparent 65%),
     radial-gradient(ellipse 900px 700px at  48% 48%,  rgba(74, 127, 167, 0.07) 0%, transparent 70%),
-    radial-gradient(ellipse 550px 450px at   5% 78%,  rgba(201, 148, 31, 0.05) 0%, transparent 68%),
+    radial-gradient(ellipse 550px 450px at   5% 78%,  rgba(74, 127, 167, 0.05) 0%, transparent 68%),
     radial-gradient(ellipse 400px 400px at  92% 85%,  rgba(74, 127, 167, 0.09) 0%, transparent 70%);
   z-index: -2;
   pointer-events: none;
@@ -265,12 +265,12 @@ body::after {
 .btn-primary {
   background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 100%);
   color: var(--forest-deep);
-  box-shadow: 0 8px 28px rgba(201, 148, 31, 0.42);
+  box-shadow: 0 8px 28px rgba(74, 127, 167, 0.42);
 }
 
 .btn-primary:hover {
   transform: translateY(-3px);
-  box-shadow: 0 16px 42px rgba(201, 148, 31, 0.55), 0 0 60px rgba(201, 148, 31, 0.15);
+  box-shadow: 0 16px 42px rgba(74, 127, 167, 0.55), 0 0 60px rgba(74, 127, 167, 0.15);
 }
 
 .btn-primary:active { transform: translateY(0); }
@@ -400,12 +400,12 @@ body::after {
   border-radius: var(--r-lg);
   transition: transform 0.2s, box-shadow 0.2s;
   flex-shrink: 0;
-  box-shadow: 0 4px 16px rgba(201, 148, 31, 0.35);
+  box-shadow: 0 4px 16px rgba(74, 127, 167, 0.35);
 }
 
 .nav-cta:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(201, 148, 31, 0.5);
+  box-shadow: 0 8px 24px rgba(74, 127, 167, 0.5);
 }
 
 @media (min-width: 768px) { .nav-cta { display: inline-flex; } }
@@ -483,7 +483,7 @@ body::after {
   font-size: 1rem;
   font-weight: 800;
   text-align: center;
-  box-shadow: 0 6px 24px rgba(201, 148, 31, 0.4);
+  box-shadow: 0 6px 24px rgba(74, 127, 167, 0.4);
 }
 
 /* ── 8. Hero ───────────────────────────────────────────────── */
@@ -556,7 +556,7 @@ body::after {
   position: absolute;
   bottom: 0; left: 0;
   width: 50%; height: 40%;
-  background: radial-gradient(ellipse at bottom left, rgba(201, 148, 31, 0.07), transparent 70%);
+  background: radial-gradient(ellipse at bottom left, rgba(74, 127, 167, 0.07), transparent 70%);
   z-index: 2;
   pointer-events: none;
 }
@@ -573,8 +573,8 @@ body::after {
   gap: 0.5rem;
   padding: 0.425rem 1rem;
   border-radius: var(--r-full);
-  background: rgba(201, 148, 31, 0.12);
-  border: 1px solid rgba(201, 148, 31, 0.32);
+  background: rgba(74, 127, 167, 0.12);
+  border: 1px solid rgba(74, 127, 167, 0.32);
   color: var(--gold-light);
   font-size: 0.78125rem;
   font-weight: 700;
@@ -850,8 +850,8 @@ body::after {
 }
 
 .service-card:hover .service-icon {
-  background: rgba(201, 148, 31, 0.12);
-  border-color: rgba(201, 148, 31, 0.25);
+  background: rgba(74, 127, 167, 0.12);
+  border-color: rgba(74, 127, 167, 0.25);
   color: var(--gold-light);
   transform: scale(1.1) rotate(-4deg);
 }
@@ -957,8 +957,8 @@ body::after {
 
 .why-icon {
   width: 50px; height: 50px;
-  background: rgba(201, 148, 31, 0.10);
-  border: 1px solid rgba(201, 148, 31, 0.18);
+  background: rgba(74, 127, 167, 0.10);
+  border: 1px solid rgba(74, 127, 167, 0.18);
   border-radius: var(--r-xl);
   display: flex;
   align-items: center;
@@ -1187,13 +1187,13 @@ body::after {
   font-size: 1.25rem;
   font-weight: 800;
   margin-bottom: 1.5rem;
-  box-shadow: 0 8px 28px rgba(201, 148, 31, 0.45);
+  box-shadow: 0 8px 28px rgba(74, 127, 167, 0.45);
   transition: transform 0.3s var(--ease-spring), box-shadow 0.3s;
 }
 
 .process-step:hover .process-number {
   transform: scale(1.1);
-  box-shadow: 0 14px 40px rgba(201, 148, 31, 0.6), 0 0 0 8px rgba(201,148,31,0.08);
+  box-shadow: 0 14px 40px rgba(74, 127, 167, 0.6), 0 0 0 8px rgba(201,148,31,0.08);
 }
 
 .process-step h4 {
@@ -1513,11 +1513,11 @@ body::after {
 }
 
 .area-chip:hover {
-  background: rgba(201, 148, 31, 0.10);
+  background: rgba(74, 127, 167, 0.10);
   color: var(--gold-light);
   border-color: var(--g-border-gold);
   transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(201, 148, 31, 0.12);
+  box-shadow: 0 8px 20px rgba(74, 127, 167, 0.12);
 }
 
 .area-chip svg { width: 13px; height: 13px; stroke: currentColor; fill: none; stroke-width: 2; flex-shrink: 0; }
@@ -1574,7 +1574,7 @@ body::after {
 /* Left info panel */
 .contact-info {
   padding: 3rem 2.5rem;
-  background: rgba(201, 148, 31, 0.06);
+  background: rgba(74, 127, 167, 0.06);
   border-bottom: 1px solid var(--g-border);
   flex: 2;
 }
@@ -1612,8 +1612,8 @@ body::after {
 
 .contact-detail-icon {
   width: 46px; height: 46px;
-  background: rgba(201, 148, 31, 0.10);
-  border: 1px solid rgba(201, 148, 31, 0.18);
+  background: rgba(74, 127, 167, 0.10);
+  border: 1px solid rgba(74, 127, 167, 0.18);
   border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
   flex-shrink: 0;
@@ -1685,7 +1685,7 @@ body::after {
 .form-group textarea:focus {
   border-color: var(--gold);
   background: var(--g2);
-  box-shadow: 0 0 0 3px rgba(201, 148, 31, 0.12);
+  box-shadow: 0 0 0 3px rgba(74, 127, 167, 0.12);
 }
 
 /* Custom select arrow */
@@ -1713,7 +1713,7 @@ body::after {
   font-size: 0.9375rem;
   font-weight: 800;
   transition: transform 0.22s var(--ease-out), box-shadow 0.22s;
-  box-shadow: 0 6px 24px rgba(201, 148, 31, 0.38);
+  box-shadow: 0 6px 24px rgba(74, 127, 167, 0.38);
   margin-top: 0.5rem;
   letter-spacing: 0.01em;
   position: relative;
@@ -1731,7 +1731,7 @@ body::after {
 
 .form-submit:hover {
   transform: translateY(-2px);
-  box-shadow: 0 12px 36px rgba(201, 148, 31, 0.52), 0 0 60px rgba(201,148,31,0.14);
+  box-shadow: 0 12px 36px rgba(74, 127, 167, 0.52), 0 0 60px rgba(201,148,31,0.14);
 }
 
 .form-submit:hover::before { left: 160%; }
@@ -1797,7 +1797,7 @@ body::after {
 }
 
 .footer-social:hover {
-  background: rgba(201, 148, 31, 0.12);
+  background: rgba(74, 127, 167, 0.12);
   color: var(--gold-light);
   border-color: var(--g-border-gold);
   transform: translateY(-3px);
