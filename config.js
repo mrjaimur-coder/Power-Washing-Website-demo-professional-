@@ -26,9 +26,9 @@ const SITE_CONFIG = {
      Use any valid CSS hex/rgb/hsl color.
      ────────────────────────────────────────────────────────── */
   colors: {
-    accent:       '#c9941f',   // gold — used for CTAs, highlights, icon glow
-    accentLight:  '#e8b547',   // lighter gold — hover states, gradients
-    accentBright: '#f5c84a',   // brightest gold — stat numbers, shimmer peaks
+    accent:       '#4A7FA7',   // steel blue — used for CTAs, highlights, icon glow
+    accentLight:  '#7BAFD0',   // lighter blue — hover states, gradients
+    accentBright: '#B3CFE5',   // sky blue — stat numbers, shimmer peaks
   },
 
   /* ──────────────────────────────────────────────────────────
