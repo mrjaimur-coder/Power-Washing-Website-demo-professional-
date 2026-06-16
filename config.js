@@ -37,7 +37,7 @@ const SITE_CONFIG = {
      ────────────────────────────────────────────────────────── */
   images: {
     // Hero full-screen image (also used as the blurred page background)
-    hero: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAB4i4zEyDCYS_fF60NH8HxRI-ptck-PAOg_w816ZiaKWHfY5cHuywAT91IGjxfz62IKUCTIzYOgKtEJZFRbTGDudQrmFaicbgbNwG0cRBITt5lulqEpx3yJwM84uiYBNdf4gKIt2IM86erBVtjFmR7haA34j7jxkka4DgE2tf4b-eR6KPT_kTvq8KZdP0vqBDxXky6_pKQVTUl5zT8KPrHSbWkUhjkQ42rm_pMSFCy6jD5a4n4dEkCRWyXPnLlD3HCJxrqJcu0KPA',
+    hero: 'stitch_elite_pressure_washing_website (1)/screen.png',
 
     // Before/After slider — BEFORE image (dirty/uncleaned)
     before: 'https://lh3.googleusercontent.com/aida-public/AB6AXuD01ao0Z-LkIzcr7Wq70kTQz_xdtdP4chWHMCQEdwFaEmnAQUx8auQ_woA9rGfWU0TojMuYhUSSYQ_E9yfGeqrhh869UCWbx6e4p7U8O6j804_uv7U0yISeu7vAY7o0AqvqRfantXIVsRAvMnAMhFhLPH9UzasA6ieEhIPnZjzh5d0CxgECnK5nTsm77kxWyco5YC8m14ZttSuXHzUpr6PyX3tkJJ84asCTQMsxJesbwj4ZwahC9mxr0TLSJqfpqrDUn8bXBP6AxX4',
