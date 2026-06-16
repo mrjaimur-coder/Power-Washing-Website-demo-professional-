@@ -1,32 +1,32 @@
 /* ============================================================
    LuxeWash — Premium Dark Glassmorphism Design System
-   Colors extracted from hero: forest green, amber gold, warm cream
+   Colors: deep navy, steel blue, sky blue — aqua prestige palette
    ============================================================ */
 
 /* ── 1. Design Tokens ──────────────────────────────────────── */
 :root {
-  /* Hero-extracted palette */
-  --forest-deep:   #060e06;
-  --forest:        #09140a;
-  --forest-mid:    #0d1c0d;
-  --forest-panel:  #111f11;
-  --moss:          #4a7c3f;
-  --moss-dim:      rgba(74, 124, 63, 0.6);
-  --leaf:          #c8ecc2;
-  --leaf-dim:      rgba(200, 236, 194, 0.6);
+  /* Navy blue palette */
+  --forest-deep:   #0A1931;
+  --forest:        #0C1E3A;
+  --forest-mid:    #112848;
+  --forest-panel:  #1A3D63;
+  --moss:          #4A7FA7;
+  --moss-dim:      rgba(74, 127, 167, 0.6);
+  --leaf:          #B3CFE5;
+  --leaf-dim:      rgba(179, 207, 229, 0.6);
 
-  /* Gold — warm amber sunlight from hero */
-  --gold:          #c9941f;
-  --gold-light:    #e8b547;
-  --gold-bright:   #f5c84a;
-  --gold-dim:      rgba(201, 148, 31, 0.35);
-  --gold-glow:     rgba(201, 148, 31, 0.18);
+  /* Blue accent — replacing gold */
+  --gold:          #4A7FA7;
+  --gold-light:    #7BAFD0;
+  --gold-bright:   #B3CFE5;
+  --gold-dim:      rgba(74, 127, 167, 0.35);
+  --gold-glow:     rgba(74, 127, 167, 0.18);
 
-  /* Warm cream — estate stonework */
-  --cream:         #f0e8d5;
-  --cream-dim:     rgba(240, 232, 213, 0.68);
-  --cream-muted:   rgba(240, 232, 213, 0.38);
-  --cream-ghost:   rgba(240, 232, 213, 0.12);
+  /* Cool off-white — sky */
+  --cream:         #F6FAFD;
+  --cream-dim:     rgba(246, 250, 253, 0.68);
+  --cream-muted:   rgba(246, 250, 253, 0.38);
+  --cream-ghost:   rgba(246, 250, 253, 0.12);
 
   /* ── Glass system ── */
   --g1:   rgba(255, 255, 255, 0.04);
@@ -34,14 +34,14 @@
   --g3:   rgba(255, 255, 255, 0.11);
   --g4:   rgba(255, 255, 255, 0.17);
   --g-border:       rgba(255, 255, 255, 0.09);
-  --g-border-leaf:  rgba(200, 236, 194, 0.18);
-  --g-border-gold:  rgba(201, 148, 31, 0.28);
+  --g-border-leaf:  rgba(179, 207, 229, 0.18);
+  --g-border-gold:  rgba(74, 127, 167, 0.28);
   --g-blur:    blur(22px) saturate(160%);
   --g-blur-sm: blur(14px) saturate(140%);
   --g-shadow:  0 8px 32px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.06);
   --g-shadow-lg: 0 24px 60px rgba(0, 0, 0, 0.55), 0 0 0 1px rgba(255, 255, 255, 0.05), inset 0 1px 0 rgba(255, 255, 255, 0.09);
-  --g-glow-green: 0 0 50px rgba(74, 124, 63, 0.14);
-  --g-glow-gold:  0 0 50px rgba(201, 148, 31, 0.18);
+  --g-glow-green: 0 0 50px rgba(74, 127, 167, 0.16);
+  --g-glow-gold:  0 0 50px rgba(74, 127, 167, 0.22);
 
   /* ── Semantic tokens ── */
   --c-primary:           var(--leaf);
