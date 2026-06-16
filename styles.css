@@ -260,10 +260,10 @@ body::after {
   outline-offset: 3px;
 }
 
-/* Gold primary — anchored in hero image's sunlight */
+/* Blue primary button */
 .btn-primary {
-  background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 100%);
-  color: var(--forest-deep);
+  background: linear-gradient(135deg, #1A3D63 0%, #4A7FA7 100%);
+  color: #F6FAFD;
   box-shadow: 0 8px 28px rgba(74, 127, 167, 0.42);
 }
 
